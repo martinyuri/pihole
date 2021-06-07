@@ -22,7 +22,6 @@ web.whatsapp.com
 https://web.whatsapp.com
 https://monoschinos2.com
 monoschinos2.com
-(\.|^)discordapp\.com$
 v16-web.tiktok.com
 api-h2.tiktokv.com
 api.tiktokv.com
@@ -971,9 +970,17 @@ scontent-lim1-1.xx.fbcdn.net
 scontent.xx.fbcdn.net
 api.premid.app
 images-ext-1.discordapp.net
+0.0.0.0 images-ext-1.discordapp.net
 gateway.discord.gg
+0.0.0.0 gateway.discord.gg
 discordapp.com
+0.0.0.0 discordapp.com
+0.0.0.0 images-ext-2.discordapp.net
 images-ext-2.discordapp.net
 status.discord.com
+0.0.0.0 status.discord.com
 support.discord.com
+0.0.0.0 support.discord.com
 suggestqueries-clients6.youtube.com
+cdn.discordapp.com
+0.0.0.0 cdn.discordapp.com 
