@@ -1,0 +1,73 @@
+occ-0-812-3934.1.nflxso.net
+nrdp.prod.ftl.netflix.com
+www.youtube.com
+youtube.com
+ichnaea.netflix.com
+tp.akam.nflximg.com
+www.netflix.com
+netflix.com
+# Amazon Fire (HD 8) Blocklist (V.1.0)
+#
+# Constribute:
+# please make a comment under this gist and I'll add it after checking to this list.
+#
+# Constributions by:
+# Luro02
+#
+# Credits:
+# https://forum.xda-developers.com/amazon-fire/general/how-to-block-updates-via-router-t3640267
+# https://forum.xda-developers.com/hd8-hd10/general/pi-hole-blocking-amazon-activity-t3726358
+
+127.0.0.1 localhost
+::1 localhost
+
+# [GENERAL]
+# com.amazon.legalsettings
+# com.amazon.paladin
+# com.amazon.dee.app
+127.0.0.1 arcus-uswest.amazon.com
+
+# [IMAGES]
+127.0.0.1 images-na.ssl-images-amazon.com
+
+# [UNIFIED SEARCH]
+# com.amazon.kindle.unifiedSearch
+# com.amazon.venezia
+127.0.0.1 msh.amazon.co.uk
+
+# [QUESTIONABLE]
+# com.amazon.dee.app
+# com.amazon.imp
+# com.amazon.kindle.cms
+# com.amazon.photos
+127.0.0.1 api.amazon.com
+127.0.0.1 mads.amazon-adsystem.com
+127.0.0.1 kindle-time.amazon.com
+127.0.0.1 device-metrics-us-2.amazon.com
+127.0.0.1 spectrum.s3.amazonaws.com # wifi maybe broken because of this
+
+# [UPDATES_REQUIRED]
+127.0.0.1 amzdigital-a.akamaihd.net
+127.0.0.1 amzdigitaldownloads.edgesuite.net
+
+# [UPDATES_OPTIONAL]
+127.0.0.1 softwareupdates.amazon.com
+127.0.0.1 updates.amazon.com
+0.0.0.0	netflix.com
+0.0.0.0	netflix.net
+0.0.0.0	nflxext.com
+0.0.0.0	nflximg.com
+0.0.0.0	nflximg.net
+0.0.0.0	nflxso.net
+0.0.0.0	nflxvideo.net
+
+0.0.0.0	disneyplus.com
+0.0.0.0	www.disneyplus.com
+0.0.0.0	prod-static.disney-plus.net
+0.0.0.0	global.edge.bamgrid.com
+0.0.0.0	cannonball-cdn.bamgrid.com
+0.0.0.0	bam-sdk-configs.bamgrid.com
+0.0.0.0 content.global.edge.bamgrid.com
+0.0.0.0	prod-ripcut-delivery.disney-plus.net
+0.0.0.0 search-api-disney.svcs.dssott.com
+0.0.0.0	vod-bgc-na-east-1.media.dssott.com
